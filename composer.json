@@ -1,5 +1,5 @@
 {
-    "name": "tbit/omnipay",
+    "name": "tbit/laravel/omnipay",
     "description": "Small package to resolve Omnipay's breaking changes when calling GatewayFactory::create by using a Facade",
     "keywords": ["omnipay","gatewayfactory","laravel"],
     "require": {
