@@ -1,0 +1,25 @@
+{
+    "name": "tbit/omnipay",
+    "description": "Small package to resolve Omnipay's breaking changes when calling GatewayFactory::create by using a Facade",
+    "keywords": ["omnipay","gatewayfactory","laravel"],
+    "require": {
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "jeremeamia/superclosure": "~1.0.1",
+        "patchwork/utf8": "1.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Tbit\\Omnipay": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Rodriguez",
+            "email": "adam_rodriguez@bitbucket.org"
+        }
+    ],
+    "minimum-stability": "dev"
+}
